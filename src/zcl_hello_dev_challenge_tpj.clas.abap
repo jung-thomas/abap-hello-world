@@ -11,9 +11,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_hello_dev_challenge_tpj IMPLEMENTATION.
+CLASS ZCL_HELLO_DEV_CHALLENGE_TPJ IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     out->write( |Hello World!| ).
   ENDMETHOD.
-
 ENDCLASS.
